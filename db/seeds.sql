@@ -7,7 +7,7 @@ Values
     ("Accounting"),
     ("Finance"),
     ("Lawyers"),
-    ("Sanitation")
+    ("Sanitation");
 
 --create the data for the roles at least 5 --
 INSERT INTO roles (title, salary, department)
@@ -21,7 +21,7 @@ VALUES
     ("Receptionist", 30000, 3),
     ("lawyer", 80000, 6),
     ("Accountant", 75000, 4)
-    ("Janitor", 55000, 7),
+    ("Janitor", 55000, 7);
 
 -- create the data for employees have at least 10--
 INSERT INTO employees (first_name, last_name, role_id, manager_id)
@@ -40,6 +40,6 @@ VALUES
     ("Saul", "Goodman", 8, 1),
     ("David", "Rodriguez",9, 1),
     ("Rebecca", "Charles", 9, 1),
-    ("Emilano", "Cortez", 10, 1)
+    ("Emilano", "Cortez", 10, 1);
 
 -- then you export it OR you simply run the seed--
