@@ -1,8 +1,3 @@
--- here you create the initial table that contains the following.. --
--- Departments--
---Roles--
--- Employess--
-
 USE company;
 DROP TABLE IF EXISTS departments;
 DROP TABLE IF EXISTS roles;

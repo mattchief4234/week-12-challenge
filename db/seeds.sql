@@ -1,4 +1,3 @@
--- create the data for the departments - have at least 3--
 INSERT INTO departments (name)
 Values
     ("Management"),
@@ -9,7 +8,6 @@ Values
     ("Lawyers"),
     ("Sanitation");
 
---create the data for the roles at least 5 --
 INSERT INTO roles (title, salary, department)
 VALUES 
     ("Manager", 100000, 1),
@@ -23,7 +21,6 @@ VALUES
     ("Accountant", 75000, 4)
     ("Janitor", 55000, 7);
 
--- create the data for employees have at least 10--
 INSERT INTO employees (first_name, last_name, role_id, manager_id)
 VALUES
     ("Jason", "Borne", 1, 1),
@@ -41,5 +38,3 @@ VALUES
     ("David", "Rodriguez",9, 1),
     ("Rebecca", "Charles", 9, 1),
     ("Emilano", "Cortez", 10, 1);
-
--- then you export it OR you simply run the seed--
