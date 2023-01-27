@@ -1,6 +1,6 @@
-const dbStart = require("./connection");
+const dbStart = require("./db/connection");
 const express = require("express");
-const startBigboi = require("./bigboi");
+const startBigboi = require("./lib/bigboi");
 const PORT = process.env.PORT || 3001;
 const app = express();
 
